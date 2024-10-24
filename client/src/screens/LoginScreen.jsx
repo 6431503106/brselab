@@ -42,7 +42,7 @@ export default function LoginScreen() {
     }
 
     const handleForgotPassword = async () => {
-        if (!email) alert("Please enter your email")
+        if (!email) alert("Please enter your email.")
         else {
             try {
                 const res = await forgotPassword({ email }).unwrap()
