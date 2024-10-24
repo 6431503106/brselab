@@ -42,5 +42,6 @@
     "stripe": "^14.11.0",
     "sweetalert2": "^11.14.4",
     "uuid": "^10.0.0"
-  }
+  },
+  "devDependencies": {}
 }
